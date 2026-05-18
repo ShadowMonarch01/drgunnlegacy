@@ -127,17 +127,7 @@ export default function MemorialLettersPage() {
 
   return (
     <div className="min-h-screen overflow-hidden bg-black text-white">
-      {/* Responsive navbar*/}
-      {/* <div className="border-b border-white/10 bg-black/70 px-4 py-5 backdrop-blur-xl sm:px-6">
-        <div className="mx-auto flex max-w-7xl items-center justify-between">
-          <h1 className="text-lg font-bold">In Loving Memory Of Doctor Ezekiel Gunn</h1>
-            <nav className="hidden gap-10 text-sm sm:flex">
-                <a href="#center" className="transition hover:text-white/70">Home</a>
-                <a href="#letters" className="transition hover:text-white/70">Letters</a>
-                <a href="#next-steps" className="transition hover:text-white/70">Next Steps</a>
-            </nav>
-        </div>
-      </div> */}
+ 
        
     
       {/* Hero Section */}
@@ -153,7 +143,7 @@ export default function MemorialLettersPage() {
           In Loving Memory Of
         </p>
 
-        <h1 className="text-4xl font-bold leading-tight md:text-6xl">
+        <h1 className="text-4xl text-neutral-300 font-bold leading-tight md:text-6xl">
           TPL. DR. GUNN, EZEKIEL OVUOKERIE, FNITP
         </h1>
 
@@ -220,32 +210,6 @@ export default function MemorialLettersPage() {
 </section>
 
 
-      {/* <section className="relative h-[75vh] w-full overflow-hidden">
-        <img
-          src="/src/assets/fullfamily.jpeg"
-          alt="Doctor Ezekiel Gunn"
-          className="absolute inset-0 h-full w-full object-cover"
-        />
-
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
-
-        <div className="absolute bottom-0 left-0 right-0 z-10 px-6 pb-14">
-          <div className="mx-auto max-w-6xl">
-            <p className="mb-3 text-sm uppercase tracking-[0.4em] text-neutral-300">
-              In Loving Memory Of
-            </p>
-
-            <h1 className="max-w-4xl text-4xl font-bold leading-tight sm:text-5xl md:text-7xl">
-              Doctor Ezekiel Gunn
-            </h1>
-
-            <p className="mt-6 max-w-2xl text-base leading-8 text-neutral-300 sm:text-lg">
-              A beloved father, mentor, and inspiration whose memory continues
-              to live in the hearts of family, friends, and loved ones.
-            </p>
-          </div>
-        </div>
-      </section> */}
 
       {/* Search + Controls */}
       <section className="sticky top-0 z-20 border-b border-white/10 bg-black/70 px-4 py-5 backdrop-blur-xl sm:px-6">
