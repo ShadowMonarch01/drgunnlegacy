@@ -1,6 +1,23 @@
 import { useEffect, useMemo, useState } from "react";
 import { Search, X, ZoomIn, ZoomOut } from "lucide-react";
 
+import fullfamily from "/src/assets/fullfamily.jpeg";
+import dad1 from "/src/assets/dad1.jpeg";
+import dad2 from "/src/assets/dad2.jpeg";
+import dad3 from "/src/assets/dad3.jpeg";
+import dad4 from "/src/assets/dad4.jpeg";
+import dad5 from "/src/assets/dad5.jpeg";
+import dad6 from "/src/assets/dad6.jpeg";
+import dad7 from "/src/assets/dad7.jpeg";
+import dad8 from "/src/assets/dad8.jpeg";
+
+// Letters
+import let1 from "/src/assets/let1.jpeg";
+import let2 from "/src/assets/let2.jpeg";
+import let3 from "/src/assets/let3.jpeg";
+import let4 from "/src/assets/let4.jpeg";
+import let5 from "/src/assets/let5.jpeg";
+
 type letterType = {
   id: number;
   title: string;
@@ -18,15 +35,15 @@ export default function MemorialLettersPage() {
 
 
   const images = [
-    "/src/assets/fullfamily.jpeg",
-    "/src/assets/dad1.jpeg",
-    "/src/assets/dad2.jpeg",
-    "/src/assets/dad3.jpeg",
-    "/src/assets/dad4.jpeg",
-    "/src/assets/dad5.jpeg",
-    "/src/assets/dad6.jpeg",
-    "/src/assets/dad7.jpeg",
-    "/src/assets/dad8.jpeg",
+    fullfamily,
+    dad1,
+    dad2,
+    dad3,
+    dad4,
+    dad5,
+    dad6,
+    dad7,
+    dad8,
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -47,32 +64,27 @@ export default function MemorialLettersPage() {
     {
       id: 1,
       title: "Family Tribute",
-      image:
-        "/src/assets/let1.jpeg",
+      image:let1,
     },
     {
       id: 2,
       title: "Colleague's Condolence",
-      image:
-        "/src/assets/let2.jpeg",
+      image:let2,
     },
     {
       id: 3,
       title: "Friends & Loved Ones",
-      image:
-        "/src/assets/let3.jpeg",
+      image:let3,
     },
     {
       id: 4,
       title: "Community Support",
-      image:
-        "/src/assets/let4.jpeg",
+      image:let4,
     },
     {
       id: 5,
       title: "Special Tributes",
-      image:
-        "/src/assets/let5.jpeg",
+      image:let5,
     }
   ];
 
