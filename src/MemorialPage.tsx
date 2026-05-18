@@ -143,7 +143,7 @@ export default function MemorialLettersPage() {
           In Loving Memory Of
         </p>
 
-        <h1 className="text-4xl text-neutral-300 font-bold leading-tight md:text-6xl">
+        <h1 style={{color:"#fff"}} className="text-4xl text-neutral-300 font-bold leading-tight md:text-6xl">
           TPL. DR. GUNN, EZEKIEL OVUOKERIE, FNITP
         </h1>
 
