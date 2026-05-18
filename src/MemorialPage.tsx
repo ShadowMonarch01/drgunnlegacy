@@ -273,6 +273,9 @@ export default function MemorialLettersPage() {
 
       {/* Letters */}
       <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
+        {/* Condolence Letters Title to be aligned to the left */}
+        <h2 className="mb-8 text-2xl font-bold">Condolence Letters</h2>
+        <br />
         <div className="columns-1 gap-6 space-y-6 sm:columns-2 lg:columns-3">
           {filteredLetters.map((letter) => (
             <div
