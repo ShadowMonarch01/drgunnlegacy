@@ -10,13 +10,9 @@ import dad5 from "/src/assets/dad5.jpeg";
 import dad6 from "/src/assets/dad6.jpeg";
 import dad7 from "/src/assets/dad7.jpeg";
 import dad8 from "/src/assets/dad8.jpeg";
+import { Letters } from "./Data";
 
-// Letters
-import let1 from "/src/assets/let1.jpeg";
-import let2 from "/src/assets/let2.jpeg";
-import let3 from "/src/assets/let3.jpeg";
-import let4 from "/src/assets/let4.jpeg";
-import let5 from "/src/assets/let5.jpeg";
+
 
 type letterType = {
   id: number;
@@ -59,37 +55,10 @@ export default function MemorialLettersPage() {
   }, []);
 
 
-//   5 Letters
-  const letters = [
-    {
-      id: 1,
-      title: "Family Tribute",
-      image:let1,
-    },
-    {
-      id: 2,
-      title: "Colleague's Condolence",
-      image:let2,
-    },
-    {
-      id: 3,
-      title: "Friends & Loved Ones",
-      image:let3,
-    },
-    {
-      id: 4,
-      title: "Community Support",
-      image:let4,
-    },
-    {
-      id: 5,
-      title: "Special Tributes",
-      image:let5,
-    }
-  ];
+
 
   const filteredLetters = useMemo(() => {
-    return letters.filter((item) =>
+    return Letters.filter((item) =>
       item.title.toLowerCase().includes(search.toLowerCase())
     );
   }, [search]);
