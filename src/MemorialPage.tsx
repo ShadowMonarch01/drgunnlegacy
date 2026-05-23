@@ -287,8 +287,7 @@ export default function MemorialLettersPage() {
       {/* Footer */}
       <footer className="border-t border-white/10 bg-black/70 px-4 py-5 text-center text-sm text-neutral-500 backdrop-blur-xl sm:px-6">
         <p>
-          &copy; {new Date().getFullYear()} In Loving Memory Of Doctor Ezekiel
-          Gunn. All rights reserved.
+          &copy; {new Date().getFullYear()} In Loving Memory Of TPL. DR. GUNN, EZEKIEL OVUOKERIE, FNITP.
         </p>
       </footer>
 
