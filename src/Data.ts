@@ -41,62 +41,62 @@ export const Letters = [
     },
     {
       id: 5,
-      title: "",
+      title: "OPROZA GRAMMAR SCHOOL",
       image:let5,
     },
     {
       id: 6,
-      title: "",
+      title: "FACULTY OF ENVIRONMENTAL SCIENCES, RIVERS STATE UNIVERSITY",
       image:let6,
     },
     {
       id: 7,
-      title: "",
+      title: "TOPREC_1",
       image:let7,
     },
     {
       id: 8,
-      title: "",
+      title: "TOPREC_2",
       image:let8,
     },
     {
       id: 9,
-      title: "",  
+      title: "NITP",  
       image:let9,
     },
     {
       id: 10,
-      title: "",
+      title: "ZEK KONSULT",
       image:let10,
     },
     {
       id: 11,
-      title: "",
+      title: "NITP, BAYELSA STATE CHAPTER_1",
       image:let11,
     },
     {
       id: 12,
-      title: "",
+      title: "NITP, BAYELSA STATE CHAPTER_2",
       image:let12,
     },
     {
       id: 13,
-      title: "",
+      title: "ABU",
       image:let13,
     },
     {
       id: 14,
-      title: "",
+      title: "OPROZA GRAMMAR SCHOOL",
       image:let14,
     },
     {
       id: 15,
-      title: "",
+      title: "TOPREC",
       image:let15,
     },
     {
       id: 16,
-      title: "",
+      title: "NITP, RIVERS STATE CHAPTER",
       image:let16,
     }
   ];
