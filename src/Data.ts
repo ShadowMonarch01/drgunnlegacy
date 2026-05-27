@@ -15,10 +15,22 @@ import let13 from "/src/assets/lt11.jpeg"
 import let14 from "/src/assets/lt12.jpeg"
 import let15 from "/src/assets/lt13.jpeg"
 import let16 from "/src/assets/lt14.jpeg"
+import let17 from "/src/assets/lt15.jpeg"
+import let18 from "/src/assets/lt16.jpeg"
 
 
 //   5 Letters
 export const Letters = [
+    {
+      id: 17,
+      title: "NITP AKWA IBOM STATE CHAPTER",
+      image:let17,
+    },
+    {
+      id: 18,
+      title: "UNIVERSITY OF PORT HARCOURT TEACHING HOSPITAL",
+      image:let18,
+    },
     {
       id: 1,
       title: "Nigerian Institute of Public Relations",
